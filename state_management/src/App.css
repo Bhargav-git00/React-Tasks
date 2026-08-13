@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 40px;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.app.dark {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.task {
+    width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.task h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.password-box {
+    display: flex;
+    gap: 10px;
+}
+
+.password-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+}
